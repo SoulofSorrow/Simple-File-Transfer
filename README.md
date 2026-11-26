@@ -23,3 +23,8 @@ Nach Abschluss aller Übertragungen ruft die `main`-Funktion die `submain`-Funkt
 Das Skript kann direkt ausgeführt werden, indem es in einer Bash-Umgebung aufgerufen wird.
 
 Bitte beachten Sie, dass die Pfade zu den Log-Dateien und den Verzeichnissen entsprechend angepasst werden müssen, um Ihren spezifischen Anforderungen gerecht zu werden.
+
+## Dokumentation
+
+- [`docs/`](docs/README.md): Ablauf, Funktionen und bekannte Probleme des Skripts, vorrangig für KI-Coding-Agenten geschrieben (Englisch).
+- [`AGENTS.md`](AGENTS.md): Regeln und Ablauf für KI-Coding-Agenten.
