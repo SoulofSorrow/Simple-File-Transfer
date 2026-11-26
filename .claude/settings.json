@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(bash -n trans.sh)",
+      "Bash(shellcheck trans.sh)",
+      "Bash(make help)",
+      "Bash(make info)",
+      "Bash(make check-git)"
+    ],
+    "ask": [
+      "Bash(make setup)",
+      "Bash(make all)",
+      "Bash(make clean)",
+      "Bash(make set-git-local)",
+      "Bash(make install-hooks)",
+      "Bash(git push:*)"
+    ],
+    "deny": [
+      "Bash(./trans.sh:*)",
+      "Bash(bash trans.sh:*)",
+      "Read(./.env)"
+    ]
+  }
+}
